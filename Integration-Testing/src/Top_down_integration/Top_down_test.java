@@ -50,15 +50,18 @@ class Top_down_test {
 	//PrintSocialInsuranceFee
 		@Test
 		void PrintSocialInsuranceFee_14000(){
-			
+			String PrintSocialInsuranceFee = List_Stubs.PrintSocialInsuranceFee(5);
+			assertEquals("Social Insurance Fee 5.0", PrintSocialInsuranceFee);
 		}
 		@Test
 		void PrintSocialInsuranceFee_17000(){
-			
+			String PrintSocialInsuranceFee = List_Stubs.PrintSocialInsuranceFee(5);
+			assertEquals("Social Insurance Fee 5.0", PrintSocialInsuranceFee);
 		}
 		@Test
 		void PrintSocialInsuranceFee_22000(){
-			
+			String PrintSocialInsuranceFee = List_Stubs.PrintSocialInsuranceFee(5);
+			assertEquals("Social Insurance Fee 5.0", PrintSocialInsuranceFee);
 		}
 		
 	
@@ -82,15 +85,18 @@ class Top_down_test {
 	//PrintOT
 		@Test
 		void PrintOT_14000(){
-			
+			String PrintOT = List_Stubs.PrintOT(5);
+			assertEquals("Over Time: 5.0", PrintOT);
 		}
 		@Test
 		void PrintOT_17000(){
-			
+			String PrintOT = List_Stubs.PrintOT(5);
+			assertEquals("Over Time: 5.0", PrintOT);
 		}
 		@Test
 		void PrintOT_22000(){
-			
+			String PrintOT = List_Stubs.PrintOT(5);
+			assertEquals("Over Time: 5.0", PrintOT);
 		}
 	
 	
@@ -113,15 +119,18 @@ class Top_down_test {
 	//PrintTax
 		@Test
 		void PrintTax_14000() {
-			
+			String PrintTax = List_Stubs.PrintTax(750);
+			assertEquals("Tax: 750", PrintTax);
 		}
 		@Test
 		void PrintTax_17000() {
-			
+			String PrintTax = List_Stubs.PrintTax(800);
+			assertEquals("Tax: 750", PrintTax);
 		}
 		@Test
 		void PrintTax_22000() {
-			
+			String PrintTax = List_Stubs.PrintTax(1000);
+			assertEquals("Tax: 1000", PrintTax);
 		}
 
 }

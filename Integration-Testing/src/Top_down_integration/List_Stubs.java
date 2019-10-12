@@ -89,9 +89,10 @@ public class List_Stubs {
 			return fee;
 		}
 		
-		public static void PrintSocialInsuranceFee(double fee)
+		public static String  PrintSocialInsuranceFee(double fee)
 		{	
-			System.out.println("Social Insurance Fee: " + fee);		
+			System.out.println("Social Insurance Fee: " + fee);
+			return "Social Insurance Fee: "+fee;
 		}
 	
 	
@@ -119,9 +120,10 @@ public class List_Stubs {
 			
 			return OT;
 		}
-		public static void PrintOT(double OT)
+		public static String PrintOT(double OT)
 		{	
 			System.out.println("Over Time: " + OT);
+			return "Over Time: "+OT;
 		}
 	
 	
@@ -146,7 +148,8 @@ public class List_Stubs {
 			
 			return tax;
 		}
-		public static void PrintTax(double tax)
-		{	System.out.println("Tax: " + tax);		
+		public static String PrintTax(double tax)
+		{	System.out.println("Tax: " + tax);
+		return "Tax: "+tax;		
 		}
 }
